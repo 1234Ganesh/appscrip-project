@@ -1,0 +1,91 @@
+
+.nav-header {
+    height: 55px;
+    width: 100vw;
+    font-family: 'Roboto';
+  }
+  
+  .logo-img {
+    width: 36px;
+    height: 36px;
+    margin-top: 10px;
+  }
+  
+  .nav-logo-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 35px;
+  }
+  .logo-name {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+  }
+  .line {
+    text-decoration: line-through;
+    color: lightblue;
+  }
+  .nav-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .Eng-heading {
+    margin-right: 10px;
+    margin-left: 10px;
+    display: none;
+    margin-top: 0px;
+  }
+  .nav-icon-profile {
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    display: none;
+  }
+  
+  .icon-con {
+    display: flex;
+    flex-direction: row;
+  }
+  @media screen and (min-width: 768px) {
+    .nav-icon-profile {
+      width: 24px;
+      height: 24px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 20px;
+      display: block;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .Eng-heading {
+      display: block;
+      margin-top: 20px;
+    }
+  }
+  .nav-items-tabs {
+    list-style-type: none;
+    display: none;
+  }
+  
+  .nav-items-tab-name {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  @media screen and (min-width: 768px) {
+    .nav-items-tabs {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+  }
+  
